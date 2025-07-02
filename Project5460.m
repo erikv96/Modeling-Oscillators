@@ -1,3 +1,4 @@
+%%First we will consider a singular oscillator modeled by a single difference equation
 xs=[]
 as=[]
 alphas=linspace(0,2,200)
@@ -19,7 +20,7 @@ end
 plot(as,xs,".")
 xlabel('parameter a')
 ylabel('x_n')
-%% next we will look at a system of p oscillators 
+%% next we will look at a system of p oscillators modeled by a system of difference equations
 p=32
 a=0.6
 b=.2
