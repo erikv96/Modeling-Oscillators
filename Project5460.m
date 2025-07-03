@@ -20,7 +20,7 @@ end
 plot(as,xs,".")
 xlabel('parameter a')
 ylabel('x_n')
-%% next we will look at a system of p oscillators modeled by a system of difference equations
+%%Next we will look at a system of p oscillators modeled by a system of difference equations
 p=32
 a=0.6
 b=.2
